@@ -8,5 +8,3 @@ httpd.socket = ssl.wrap_socket(
     certfile='cert.pem',
     server_side=True)
 httpd.serve_forever()
-
-# password: jebigadojaja
